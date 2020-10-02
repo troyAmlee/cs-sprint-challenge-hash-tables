@@ -3,8 +3,22 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    d = {}
+    ex = []
+    length = len(arrays)
+    for i in arrays:
+        
+        for j in i:
 
-    return result
+            if(j not in d):
+                d[j] = 1
+
+            elif(d[j] < length): 
+                d[j] += 1
+
+            if(d[j] == length):
+                ex.append(j)
+    return ex
 
 
 if __name__ == "__main__":
