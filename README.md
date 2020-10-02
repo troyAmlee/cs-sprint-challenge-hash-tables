@@ -23,11 +23,17 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+    # What do hashing functions do?
 2. Collision resolution
+    # If you have a collision what is a solution we can implement?
 3. Performance of basic hash table operations
+    # What is the BigO notation for various hash table operations?
 4. Load factor
+    # What is the load factor for?
 5. Automatic resizing
+    # How do we use the load factor, and when we want to resize how do we do it?
 6. Various use cases for hash tables
+    # What do we use hash tables for?
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
